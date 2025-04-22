@@ -9,8 +9,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: '*/master', url: 'https://github.com/Venkatadhi626/https://github.com/Venkatadhi626/my-react-app.git'
-            }
+                git branch: '*/master', url: 'https://github.com/Venkatadhi626/my-react-app.git'
         }
         stage('Install Dependencies') {
             steps {
